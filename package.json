@@ -1,0 +1,28 @@
+{
+  "name": "cb-promise",
+  "description": "Allow your methods be called by Callbacks or Promises.",
+  "version": "0.0.1",
+  "author": "Mariano Pardo (Codexar) <marianomdq1@gmail.com>",
+  "dependencies": {
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "expect.js": "latest"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha ./tests/cbPromiseTest.js"
+  },
+  "keywords": [
+    "q",
+    "callback",
+    "promise",
+    "utils",
+    "tools"
+  ],
+  "main": "cb-promise",
+  "repository": "git://github.com/codexar/npm-cb-promise",
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
