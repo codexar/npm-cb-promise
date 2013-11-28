@@ -1,7 +1,7 @@
 cb-promise
 ==============
 
-Allow your methods be called by Callbacks or Promises (by [Q](https://github.com/kriskowal/q)).
+Allow your methods be called by Callbacks or Promises.
 
 ## Examples:
 
